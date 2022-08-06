@@ -615,60 +615,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Ath3kBT.kext</string>
-				<key>Comment</key>
-				<string>Ath3kBT.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Ath3kBTInjector.kext/Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Ath3kBT.kext/Ath3kBT.kext</string>
-				<key>Comment</key>
-				<string>Ath3kBT.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Ath3kBT</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>Ath3kBT.kext/Ath3kBTInjector.kext</string>
-				<key>Comment</key>
-				<string>Ath3kBTInjector.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1077,13 +1023,13 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
 				<string>Pop!_OS</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(1,GPT,AD0F6EA3-5FC6-4E49-A5AC-155C6A490884,0x800,0x104000)/\EFI\systemd\systemd-bootx64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(1,GPT,02E0ACB6-6FF4-4F28-9B42-012A24EB66FA,0x800,0x100000)/\EFI\systemd\systemd-bootx64.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1095,13 +1041,31 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
 				<key>Name</key>
 				<string>Fedora</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(1,GPT,AD0F6EA3-5FC6-4E49-A5AC-155C6A490884,0x800,0x104000)/\EFI\fedora\grubx64.efi</string>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(1,GPT,02E0ACB6-6FF4-4F28-9B42-012A24EB66FA,0x800,0x7D000)/\EFI\fedora\grubx64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>Linux Mint</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1F,0x2)/Sata(0x4,0xFFFF,0x0)/HD(1,GPT,AD0F6EA3-5FC6-4E49-A5AC-155C6A490884,0x800,0x104000)/\EFI\ubuntu\grubx64.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1290,11 +1254,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02503501GUGDQPJA</string>
+			<string>C02820300QXGDQPA8</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>rH8+7407</data>
+			<data>aFs1gdsI</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1302,9 +1266,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P401AG8WN</string>
+			<string>C02WQWZ9G8WN</string>
 			<key>SystemUUID</key>
-			<string>EB473A15-0D38-4EAE-A507-17C6B440996C</string>
+			<string>0CE92B4A-486B-458C-A87B-3556E481AF72</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
