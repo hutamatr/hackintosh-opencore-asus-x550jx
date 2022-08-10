@@ -14,10 +14,10 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
     * Audio: Conexant CX20751
 * CPU: Intel Core i7-4720HQ, 3.60 GHz
 * iGPU: Intel HD Graphics 4600
-* eGPU: GeForce GTX 950M (disable)
+* eGPU: GeForce GTX 950M (disabled)
 * RAM: DDR3L 1600 12GB
 
 ## Software
 
-* Bootloader: OpenCore 0.8.1
-* OS: macOS Big Sur 11.6.7 (MacBookPro 11,4)
+* Bootloader: OpenCore 0.8.3
+* OS: macOS Big Sur 11.6.8 (MacBookPro 11,4)
